@@ -1,0 +1,120 @@
+@import '../../assets/styles/theme.scss';
+.root {
+
+  .wrapper{
+    background-color: $bg-color-sub;
+    margin-bottom: $h-spacing-20;
+  }
+
+  .login_wrapper{
+    padding: $h-spacing-20;
+    font-size: $font-size-28;
+    color: $color-font;
+    .login_wrapper_text{
+      text-align: center;
+    }
+    .login_wrapper_btn{
+      margin: $v-spacing-20 0;
+      .at-button{
+        border-color: $color-font-sub !important;
+        color: $color-font !important;
+        font-size: $font-size-34;
+      }
+    }
+  }
+  .header{
+    display: flex;
+    align-items: center;
+    padding:$h-spacing-20;
+    .header__info{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding:$h-spacing-20;
+      .header__info__name{
+        font-size: 36px;
+        margin-bottom: $h-spacing-10;
+      }
+    }
+    .header__checkin{
+      display: flex;
+      padding: 0 20px;
+      height: 50px;
+      color: #666;
+      font-size: 24px;
+      text-align: center;
+      line-height: 48px;
+      vertical-align: middle;
+      border: 1PX solid #f7f7f7;
+      box-sizing: border-box;
+      border-radius: $radius-30;
+      background-clip: border-box;
+      overflow: hidden;
+      .icon-jiantou{
+        font-size: 24px;
+        color: #666;
+      }
+    }
+  }
+  .user_count {
+    display: flex;
+    text-align: center;
+    padding: $h-spacing-20 0;
+    border-top-width: 1PX;
+    border-top-color: $bg-color;
+    border-top-style: solid;
+    .border_right_1px {
+      border-right-width: 1PX;
+      border-right-color: $bg-color;
+      border-right-style: solid;
+    }
+    .user_count__sub {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      font-size: 22px;
+      color: #888888;
+      .icon-pan_icon{
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+      .user_count__sub--num {
+        color: #323232;
+        font-size: 36px;
+        font-weight: 700;
+      }
+    }
+  }
+  .logout-wrapper{
+    font-size: 30px;
+    text-align: center;
+    color: $brand-color;
+    padding: 24px;
+  }
+  .at-float-layout__container{
+    height: 100%;
+    max-height: 100%;
+  }
+  .at-float-layout .layout-body__content {
+    height: 100%;
+    max-height: 100%;
+    .icon-close{
+      font-size: $font-size-48;
+    }
+    .layout_img_wrapper{
+      text-align: center;
+      .layout_img{
+        width: 80px;
+        height: 80px;
+      }
+    }
+    .form_btn{
+      margin: $v-spacing-30 $v-spacing-20;
+      .at-button{
+        border-color: $brand-color !important;
+        color: $brand-color !important;
+        font-size: $font-size-34;
+      }
+    }
+  }
+}
